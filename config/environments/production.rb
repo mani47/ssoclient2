@@ -80,7 +80,7 @@ AccepttoSsoClient::Application.configure do
   
   config.rack_cas.server_url = 'https://m2m.acceptto.net/cass/'
   config.host_url = 'http://acceptto-client2.herokuapp.com'
-  
+  config.ssl_ca_file = '/usr/lib/ssl/certs/ca-certificates.crt'
   require 'rack-cas/session_store/active_record'
   config.rack_cas.session_store = RackCAS::ActiveRecordStore
 end
