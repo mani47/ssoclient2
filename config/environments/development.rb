@@ -29,7 +29,6 @@ AccepttoSsoClient::Application.configure do
   
   config.rack_cas.server_url = 'http://localhost:3002/cass/'
   config.host_url = 'http://localhost:3003'
-  config.ssl_ca_file = 'lib/ca-bundle.crt'
   
   require 'rack-cas/session_store/active_record'
   config.rack_cas.session_store = RackCAS::ActiveRecordStore
