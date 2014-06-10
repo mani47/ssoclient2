@@ -3,8 +3,8 @@ defaults: &defaults
   adapter: postgresql
   encoding: unicode
   pool: 5
-  username: acceptto
-  password: vesper
+  username: postgres
+  password: iranman
 
 development:
   <<: *defaults
