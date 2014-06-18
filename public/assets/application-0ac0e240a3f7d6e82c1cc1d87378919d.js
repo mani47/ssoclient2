@@ -10364,7 +10364,7 @@ $(function(){
 
             //show avatar
             $(".avatar").css({
-                "background-image": "url('http://api.randomuser.me/0.3.2/portraits/men/10.jpg')"
+                "background-image": "url('http://api.randomuser.me/0.3.2/portraits/women/11.jpg')"
             });
         } else {
             //remove success mesage replaced with error message
